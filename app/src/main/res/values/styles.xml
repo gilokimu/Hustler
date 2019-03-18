@@ -1,0 +1,204 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextAppearance" />
+
+    <style name="TextAppearance.Black" parent="@android:style/TextAppearance">
+        <item name="fontPath">avenir/Avenir-Black.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Book" parent="@android:style/TextAppearance">
+        <item name="fontPath">avenir/Avenir-Book.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Calibre.300" parent="@android:style/TextAppearance">
+        <item name="fontPath">fonts/Calibre-Light.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Calibre.500" parent="@android:style/TextAppearance">
+        <item name="fontPath">fonts/Calibre-Medium.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Calibre.600" parent="@android:style/TextAppearance">
+        <item name="fontPath">fonts/Calibre-Semibold.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Calibre.Normal" parent="@android:style/TextAppearance">
+        <item name="fontPath">fonts/Calibre-Regular.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent" />
+
+    <style name="TextAppearance.Compat.Notification.Info" parent="@style/TextAppearance.Compat.Notification">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Compat.Notification.Info.Media" parent="@style/TextAppearance.Compat.Notification.Info" />
+
+    <style name="TextAppearance.Compat.Notification.Line2" parent="@style/TextAppearance.Compat.Notification.Info" />
+
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="@style/TextAppearance.Compat.Notification.Info.Media" />
+
+    <style name="TextAppearance.Compat.Notification.Media" parent="@style/TextAppearance.Compat.Notification" />
+
+    <style name="TextAppearance.Compat.Notification.Time" parent="@style/TextAppearance.Compat.Notification">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Compat.Notification.Time.Media" parent="@style/TextAppearance.Compat.Notification.Time" />
+
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+
+    <style name="TextAppearance.Compat.Notification.Title.Media" parent="@style/TextAppearance.Compat.Notification.Title" />
+
+    <style name="TextAppearance.Design.CollapsingToolbar.Expanded" parent="@style/TextAppearance.AppCompat.Display1">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Design.Counter" parent="@style/TextAppearance.AppCompat.Caption" />
+
+    <style name="TextAppearance.Design.Hint" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?colorControlActivated</item>
+    </style>
+
+    <style name="TextAppearance.Design.Snackbar.Message" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/design_snackbar_text_size</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Design.Tab" parent="@style/TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/design_tab_text_size</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="TextAppearance.Heavy" parent="@android:style/TextAppearance">
+        <item name="fontPath">avenir/Avenir-Heavy.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Light" parent="@android:style/TextAppearance">
+        <item name="fontPath">avenir/Avenir-Light.ttf</item>
+    </style>
+
+    <style name="TextAppearance.MaisonNeue" parent="@android:style/TextAppearance">
+        <item name="fontPath">fonts/MaisonNeue-Mono.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance">
+        <item name="fontPath">avenir/Avenir-Medium.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Paragraph" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/resize14sp</item>
+        <item name="android:textColor">@color/shuttle_grey</item>
+        <item name="android:lineSpacingExtra">6.0sp</item>
+        <item name="fontPath">avenir/Avenir-Book.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Roman" parent="@android:style/TextAppearance">
+        <item name="fontPath">avenir/Avenir-Roman.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Subtitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/resize12sp</item>
+        <item name="android:textColor">@color/rose_pink</item>
+        <item name="android:lineSpacingExtra">6.0sp</item>
+        <item name="fontPath">avenir/Avenir-Heavy.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Title1" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/resize24sp</item>
+        <item name="android:textColor">@color/shark_grey</item>
+        <item name="android:lineSpacingExtra">6.0sp</item>
+        <item name="fontPath">avenir/Avenir-Heavy.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Title2" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/resize18sp</item>
+        <item name="android:textColor">@color/shark_grey</item>
+        <item name="android:lineSpacingExtra">6.0sp</item>
+        <item name="fontPath">avenir/Avenir-Light.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Title3" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/resize16sp</item>
+        <item name="android:textColor">@color/shark_grey</item>
+        <item name="android:lineSpacingExtra">8.0sp</item>
+        <item name="fontPath">avenir/Avenir-Book.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Widget" parent="@style/TextAppearance" />
+
+    <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@style/Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item" />
+
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" />
+
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title" />
+
+    <style name="TextAppearance.Widget.EditText" parent="@style/TextAppearance.AppCompat.Medium.Inverse">
+        <item name="android:fontFamily">@font/calibre</item>
+    </style>
+
+    <style name="TextAppearance.Widget.TextView" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:fontFamily">@font/calibre</item>
+    </style>
+
+    <style name="TextLabel">
+        <item name="android:textSize">@dimen/resize20sp</item>
+        <item name="android:textColorHighlight">@color/turquoise_green</item>
+        <item name="android:textColorHint">@color/shuttle_grey</item>
+        <item name="android:textColorLink">@color/flamingo_orange</item>
+        <item name="colorControlActivated">@color/colorFontTitle</item>
+        <item name="colorControlNormal">@color/shuttle_grey</item>
+    </style>
+
+    <style name="TextLabelTitle">
+        <item name="android:textSize">@dimen/resize12sp</item>
+        <item name="android:textColor">@color/shark_grey</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontPath">avenir/Avenir-Black.ttf</item>
+    </style>
+
+    <style name="EditTextLabel">
+        <item name="android:textSize">@dimen/resize20sp</item>
+        <item name="android:textColor">@color/colorFontTitle</item>
+        <item name="android:textColorHighlight">@color/rose_pink</item>
+        <item name="android:textColorHint">@color/colorEditText</item>
+        <item name="android:textColorLink">@color/flamingo_orange</item>
+        <item name="colorAccent">@color/side_blue</item>
+        <item name="colorControlActivated">@color/colorFontTitle</item>
+        <item name="colorControlNormal">@color/colorFontTitle</item>
+        <item name="fontPath">avenir/Avenir-Roman.ttf</item>
+    </style>
+
+    <style name="EditTextLabelLight">
+        <item name="android:textSize">@dimen/resize18sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorHighlight">@color/pale_sky_blue</item>
+        <item name="android:textColorHint">@color/colorFontPlaceholderLight</item>
+        <item name="android:textColorLink">@color/side_blue</item>
+        <item name="android:lineSpacingExtra">2.399994sp</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="fontPath">avenir/Avenir-Roman.ttf</item>
+    </style>
+
+</resources>

@@ -1,0 +1,47 @@
+<resources>
+
+    <dimen name="buttonHeight">12.0dip</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="resize100dp">100.0dip</dimen>
+    <dimen name="resize10dp">10.0dip</dimen>
+    <dimen name="resize10sp">10.0sp</dimen>
+    <dimen name="resize12dp">12.0dip</dimen>
+    <dimen name="resize12sp">12.0sp</dimen>
+    <dimen name="resize140dp">140.0dip</dimen>
+    <dimen name="resize14dp">14.0dip</dimen>
+    <dimen name="resize14sp">14.0sp</dimen>
+    <dimen name="resize16dp">16.0dip</dimen>
+    <dimen name="resize16sp">16.0sp</dimen>
+    <dimen name="resize170dp">170.0dip</dimen>
+    <dimen name="resize18dp">18.0dip</dimen>
+    <dimen name="resize18sp">18.0sp</dimen>
+    <dimen name="resize20dp">20.0dip</dimen>
+    <dimen name="resize20sp">20.0sp</dimen>
+    <dimen name="resize24dp">24.0dip</dimen>
+    <dimen name="resize24sp">24.0sp</dimen>
+    <dimen name="resize264dp">264.0dip</dimen>
+    <dimen name="resize26dp">26.0dip</dimen>
+    <dimen name="resize28dp">28.0dip</dimen>
+    <dimen name="resize30dp">30.0dip</dimen>
+    <dimen name="resize32dp">32.0dip</dimen>
+    <dimen name="resize34dp">34.0dip</dimen>
+    <dimen name="resize36dp">36.0dip</dimen>
+    <dimen name="resize36sp">36.0sp</dimen>
+    <dimen name="resize40dp">40.0dip</dimen>
+    <dimen name="resize44dp">44.0dip</dimen>
+    <dimen name="resize48dp">48.0dip</dimen>
+    <dimen name="resize50dp">50.0dip</dimen>
+    <dimen name="resize56dp">56.0dip</dimen>
+    <dimen name="resize60dp">60.0dip</dimen>
+    <dimen name="resize64dp">64.0dip</dimen>
+    <dimen name="resize6dp">6.0dip</dimen>
+    <dimen name="resize70dp">70.0dip</dimen>
+    <dimen name="resize8dp">8.0dip</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+</resources>

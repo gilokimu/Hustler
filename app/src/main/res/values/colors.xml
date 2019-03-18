@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <color name="aluminium_grey">#ffadb2bd</color>
+    <color name="athens_grey">#ffeef0f4</color>
+
+    <color name="carnation_red">#fff35d55</color>
+    <color name="carnation_red_10_percent">#1af35d55</color>
+    <color name="carnation_red_pressed">#ff990000</color>
+    <color name="catalyst_redbox_background">#eecc0000</color>
+    <color name="colorAccent">@color/side_blue</color>
+    <color name="colorBorderSecond">#ffe8e9eb</color>
+    <color name="colorDarkTransparent">#cc022038</color>
+    <color name="colorDivider">#19000000</color>
+    <color name="colorEditText">#ffdcdcdc</color>
+    <color name="colorEditTextHint">#ff9e9e9e</color>
+    <color name="colorFontPlaceholder">#ffaeb2bd</color>
+    <color name="colorFontPlaceholderLight">#7fffffff</color>
+    <color name="colorFontTitle">#ff26292e</color>
+    <color name="colorGreyFont">#ff434343</color>
+    <color name="colorGreyFontLight">#ffa4a4a4</color>
+    <color name="colorPrimary">#3781ee</color>
+    <color name="colorPrimaryDark">#2e6dca</color>
+    <color name="colorPrimaryDarkFont">#ff000000</color>
+    <color name="colorPrimaryFont">#c7616161</color>
+    <color name="colorStatusBar">#ff000000</color>
+    <color name="colorTabLight">#ffffffff</color>
+    <color name="cool_grey">#ffaeb2bd</color>
+    <color name="flamingo_orange">#ffff7c42</color>
+    <color name="hawkes_blue">#ffebf2fe</color>
+    <color name="iron">#ffe5e6e8</color>
+    <color name="lighter_turquoise_green">#ff49e4e4</color>
+    <color name="line_blue">#ff498def</color>
+    <color name="marigold_yellow">#ffffc502</color>
+    <color name="marigold_yellow_10_percent">#1affc502</color>
+    <color name="mischka_grey">#ffdde0e8</color>
+    <color name="pale_grey_two">#fff9f9fb</color>
+    <color name="pale_sky_blue">#ffcfe0ff</color>
+    <color name="rose_pink">#fff498bc</color>
+    <color name="shark_grey">#ff272a2e</color>
+    <color name="shuttle_grey">#ff5b616e</color>
+    <color name="side_blue">#ff3681ee</color>
+    <color name="sky_blue">#ff59a6f9</color>
+    <color name="statusBarBlue">#ff2e6eca</color>
+    <color name="toolbar_separator">#27ffffff</color>
+    <color name="turquoise_green">#ff41c5c5</color>
+    <color name="violet_blue">#ff5a67c9</color>
+    <color name="white">#ffffffff</color>
+    <color name="zircon_blue">#fff7faff</color>
+
+</resources>

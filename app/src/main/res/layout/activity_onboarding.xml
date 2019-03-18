@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/side_blue"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/illu_home" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_margin="16dp"
+            android:gravity="center_horizontal"
+            android:text="Help"
+            android:textAppearance="@style/TextAppearance.Roman"
+            android:textColor="@color/side_blue"
+            android:textSize="16sp" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16sp"
+        >
+
+        <LinearLayout
+            android:id="@+id/signInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:background="@drawable/background_send_button"
+            android:clickable="true"
+            android:foreground="?selectableItemBackground"
+            android:orientation="horizontal"
+            android:paddingStart="20.0dip"
+            android:paddingTop="14.0dip"
+            android:paddingEnd="20.0dip"
+            android:paddingBottom="14.0dip">
+
+            <TextView
+                android:id="@+id/alreadyAnAccount"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0.0dip"
+                android:layout_marginEnd="6.0dip"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:text="I already have an account"
+                android:textAppearance="@style/TextAppearance.Roman"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/signUpButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:background="@drawable/background_pink"
+            android:clickable="true"
+            android:foreground="?selectableItemBackground"
+            android:orientation="horizontal"
+            android:paddingStart="20.0dip"
+            android:paddingTop="14.0dip"
+            android:paddingEnd="20.0dip"
+            android:paddingBottom="14.0dip">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0.0dip"
+                android:layout_marginEnd="6.0dip"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:text="Sign up"
+                android:textAppearance="@style/TextAppearance.Roman"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/signUpTosTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:paddingStart="20.0dip"
+            android:paddingEnd="20.0dip"
+            android:paddingBottom="16.0dip"
+            android:layout_marginTop="16dp"
+            android:text="@string/tos"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Roman"
+            android:textColor="@color/colorPrimary"
+            android:textColorLink="@color/colorPrimary"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
