@@ -13,6 +13,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        startActivity(Intent(baseContext, HomeActivity::class.java))
+        startActivity(Intent(baseContext, OnboardingActivity::class.java))
     }
 }
