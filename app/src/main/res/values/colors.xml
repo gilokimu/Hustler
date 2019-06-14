@@ -2,6 +2,7 @@
 <resources>
 
 
+    <color name="text_white">#ffffff</color>
 
     <color name="aluminium_grey">#ffadb2bd</color>
     <color name="athens_grey">#ffeef0f4</color>

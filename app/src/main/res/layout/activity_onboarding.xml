@@ -54,7 +54,7 @@
 
             <TextView
                 android:id="@+id/alreadyAnAccount"
-                android:layout_width="0.0dip"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="0.0dip"
                 android:layout_marginEnd="6.0dip"
@@ -62,7 +62,7 @@
                 android:gravity="center_horizontal"
                 android:text="I already have an account"
                 android:textAppearance="@style/TextAppearance.Roman"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/text_white" />
         </LinearLayout>
 
         <LinearLayout
@@ -90,7 +90,7 @@
                 android:gravity="center_horizontal"
                 android:text="Sign up"
                 android:textAppearance="@style/TextAppearance.Roman"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/text_white" />
         </LinearLayout>
 
         <TextView
@@ -99,15 +99,15 @@
             android:layout_height="wrap_content"
             android:autoLink="web"
             android:clickable="true"
-            android:paddingStart="20.0dip"
-            android:paddingEnd="20.0dip"
-            android:paddingBottom="16.0dip"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="16dp"
             android:layout_marginTop="16dp"
-            android:text="@string/tos"
+            android:text="@string/onboarding_signin_tos"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.Roman"
-            android:textColor="@color/colorPrimary"
-            android:textColorLink="@color/colorPrimary"
+            android:textColor="@color/text_white"
+            android:textColorLink="@color/text_white"
             android:textSize="14sp" />
 
 

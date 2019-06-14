@@ -25,7 +25,7 @@
     <string name="onboarding_signin_link_forgotten_password">Forgot your Password?</string>
     <string name="onboarding_signin_link_signup">Sign up</string>
     <string name="onboarding_signin_title">Log in</string>
-    <string name="onboarding_signin_tos">By signing in, you accept &lt;a href=\"https://s3.eu-central-1.amazonaws.com/weslash-static/pdfs/cgu-uk.pdf\">general terms of use&lt;/a>.</string>
+    <string name="onboarding_signin_tos">By signing in, you accept <a>general terms of use</a>.</string>
     <string name="onboarding_signup_button_signup">Sign up</string>
     <string name="onboarding_signup_link_signin">Sign in</string>
     <string name="onboarding_signup_subtitle">"You don't have a Side account yet? Enter your email address or go directly to the Side sign up page. The Side mobile app will then give you access to the tasks currently available."</string>

@@ -1,4 +1,4 @@
-package com.bonobo.cas.ui.user.onboarding
+package me.gilo.side.ui.user.onboarding
 
 import android.content.Context
 import android.os.Bundle

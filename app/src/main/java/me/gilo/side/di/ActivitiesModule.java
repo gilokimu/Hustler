@@ -1,6 +1,6 @@
 package me.gilo.side.di;
 
-import com.bonobo.cas.ui.user.onboarding.SignInActivity;
+import me.gilo.side.ui.user.onboarding.SignInActivity;
 
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;
