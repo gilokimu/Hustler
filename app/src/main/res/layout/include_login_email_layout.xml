@@ -8,7 +8,7 @@
         android:id="@+id/titleBegin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4.0dip"
+        android:layout_marginStart="4dp"
         android:text="@string/onboarding_signin_field_email_title"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.Black"
@@ -20,9 +20,9 @@
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="0.0dip"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="0.0dip"
+        android:layout_marginTop="0dp"
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:hint="@string/onboarding_signin_field_email_title"

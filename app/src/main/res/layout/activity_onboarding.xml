@@ -7,7 +7,7 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1">
 
         <ImageView
@@ -33,31 +33,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginBottom="16sp"
         >
 
         <LinearLayout
             android:id="@+id/signInButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16.0dip"
-            android:layout_marginEnd="16.0dip"
-            android:layout_marginBottom="8.0dip"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
             android:background="@drawable/background_send_button"
             android:clickable="true"
             android:foreground="?selectableItemBackground"
             android:orientation="horizontal"
-            android:paddingStart="20.0dip"
-            android:paddingTop="14.0dip"
-            android:paddingEnd="20.0dip"
-            android:paddingBottom="14.0dip">
+            android:paddingStart="20dp"
+            android:paddingTop="14dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="14dp">
 
             <TextView
                 android:id="@+id/alreadyAnAccount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="0.0dip"
-                android:layout_marginEnd="6.0dip"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="6dp"
                 android:layout_weight="1.0"
                 android:gravity="center_horizontal"
                 android:text="I already have an account"
@@ -69,23 +68,23 @@
             android:id="@+id/signUpButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16.0dip"
-            android:layout_marginEnd="16.0dip"
-            android:layout_marginBottom="8.0dip"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
             android:background="@drawable/background_pink"
             android:clickable="true"
             android:foreground="?selectableItemBackground"
             android:orientation="horizontal"
-            android:paddingStart="20.0dip"
-            android:paddingTop="14.0dip"
-            android:paddingEnd="20.0dip"
-            android:paddingBottom="14.0dip">
+            android:paddingStart="20dp"
+            android:paddingTop="14dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="14dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="0.0dip"
-                android:layout_marginEnd="6.0dip"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="6dp"
                 android:layout_weight="1.0"
                 android:gravity="center_horizontal"
                 android:text="Sign up"
@@ -102,7 +101,6 @@
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
             android:paddingBottom="16dp"
-            android:layout_marginTop="16dp"
             android:text="@string/onboarding_signin_tos"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.Roman"
