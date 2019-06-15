@@ -111,7 +111,7 @@
             android:clickable="true"
             android:paddingEnd="20dp"
             android:text="@string/onboarding_signin_tos"
-            android:textAlignment="center"
+            android:gravity="left"
             android:textAppearance="@style/TextAppearance.Roman"
             android:textColor="@color/text_black_9"
             android:textColorLink="@color/colorPrimary"
