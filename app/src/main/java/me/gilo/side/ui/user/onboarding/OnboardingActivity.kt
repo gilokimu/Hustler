@@ -1,5 +1,6 @@
 package me.gilo.side.ui.user.onboarding
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,7 +15,7 @@ class OnboardingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_onboarding)
 
         signUpButton.setOnClickListener{
-            
+            startActivity(Intent(baseContext, SignUpActivity::class.java))
         }
 
     }

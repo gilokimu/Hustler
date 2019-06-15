@@ -13,6 +13,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="-16dp"
             android:scaleType="centerCrop"
             android:src="@drawable/illu_home" />
 
@@ -41,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="16dp"
             android:background="@drawable/background_send_button"
             android:clickable="true"
             android:foreground="?selectableItemBackground"
@@ -60,6 +61,7 @@
                 android:layout_weight="1.0"
                 android:gravity="center_horizontal"
                 android:text="I already have an account"
+                android:textSize="14sp"
                 android:textAppearance="@style/TextAppearance.Roman"
                 android:textColor="@color/text_white" />
         </LinearLayout>
@@ -70,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="16dp"
             android:background="@drawable/background_pink"
             android:clickable="true"
             android:foreground="?selectableItemBackground"
@@ -86,6 +88,7 @@
                 android:layout_marginStart="0dp"
                 android:layout_marginEnd="6dp"
                 android:layout_weight="1.0"
+                android:textSize="14sp"
                 android:gravity="center_horizontal"
                 android:text="Sign up"
                 android:textAppearance="@style/TextAppearance.Roman"
