@@ -1,13 +1,9 @@
 package me.gilo.side.models;
 
-import android.arch.persistence.room.Embedded;
-import android.arch.persistence.room.Entity;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Objects;
 
-@Entity(tableName = "post")
 public class Post extends Model implements Serializable {
 
     public static final String FIELD_HAS_IMAGE = "has_image";
@@ -37,7 +33,6 @@ public class Post extends Model implements Serializable {
     boolean dummy = false;
     String status = "pending";
 
-    @Embedded
     User created_by;
 
     String user_id;

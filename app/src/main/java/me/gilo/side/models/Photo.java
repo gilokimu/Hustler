@@ -1,8 +1,10 @@
 package me.gilo.side.models;
 
-import android.arch.persistence.room.Entity;
-import android.arch.persistence.room.Ignore;
+
 import android.graphics.Bitmap;
+
+import androidx.room.Entity;
+import androidx.room.Ignore;
 
 import com.google.firebase.storage.StorageReference;
 

@@ -14,10 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.example.github.util
+package me.gilo.side.utils
 
 import android.os.SystemClock
-import android.support.v4.util.ArrayMap
+import androidx.collection.ArrayMap
+
 
 import java.util.concurrent.TimeUnit
 

@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.example.github.util
+package me.gilo.side.utils
 
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
+
 
 /**
  * A LiveData class that has `null` value.

@@ -1,7 +1,7 @@
 package me.gilo.side.ui.user.onboarding
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import me.gilo.side.R
 
 class SignUpActivity : AppCompatActivity() {

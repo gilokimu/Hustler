@@ -1,15 +1,14 @@
 package me.gilo.side.models;
 
-import android.arch.persistence.room.ColumnInfo;
-import android.arch.persistence.room.Embedded;
-import android.arch.persistence.room.PrimaryKey;
-import android.support.annotation.NonNull;
 
-import com.google.firebase.firestore.Exclude;
+import androidx.annotation.NonNull;
+import androidx.room.ColumnInfo;
+import androidx.room.Embedded;
+import androidx.room.PrimaryKey;
+
 import com.google.firebase.firestore.IgnoreExtraProperties;
 
 import java.io.Serializable;
-
 
 /**
  * A Base Model to be extended by other models to add ids.
