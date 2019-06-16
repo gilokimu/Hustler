@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import me.gilo.side.ui.home.HomeActivity
+import me.gilo.side.ui.user.WelcomeActivity
 import me.gilo.side.ui.user.onboarding.LoginActivity
 import me.gilo.side.ui.user.onboarding.OnboardingActivity
 
@@ -13,6 +14,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        startActivity(Intent(baseContext, OnboardingActivity::class.java))
+        startActivity(Intent(baseContext, WelcomeActivity::class.java))
     }
 }

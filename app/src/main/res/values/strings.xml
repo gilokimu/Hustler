@@ -41,6 +41,7 @@
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
     <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="welcome_subtext">Welcome! Before you can start working on Hustle, we\'ll need you to fill in your profile and book a call with our team.</string>
 
 
 </resources>
