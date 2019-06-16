@@ -57,4 +57,17 @@
     <color name="white">#ffffffff</color>
     <color name="zircon_blue">#fff7faff</color>
 
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_focused">#77000000</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="colorBottomNavigationAccent">#ff4081</color>
+    <color name="colorBottomNavigationActiveColored">#ffffff</color>
+    <color name="colorBottomNavigationDisable">#3a000000</color>
+    <color name="colorBottomNavigationInactive">#747474</color>
+    <color name="colorBottomNavigationInactiveColored">#50ffffff</color>
+    <color name="colorBottomNavigationNotification">#f63d2b</color>
+    <color name="colorBottomNavigationPrimary">#3f51b5</color>
+    <color name="colorBottomNavigationPrimaryDark">#303f9f</color>
+    <color name="colorBottomNavigationSelectedBackground">#17000000</color>
 </resources>
